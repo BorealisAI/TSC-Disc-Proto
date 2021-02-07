@@ -4,23 +4,18 @@ This repo contains the official code of the project "Discriminative Prototypes l
 
 ## 1. Dependent Packages and Platform
 
-First we recommend to create a conda environment with all the required packages by using the following command.
+First we recommend to create a conda environment with all the required packages as follows,
 
 ```bash
 conda env create -f environment.yml
-```
-
-This command creates a conda environment named `TSC_Disc_Proto`. You can activate the conda environment with the
-following command:
-
-```bash
 conda activate TSC_Disc_Proto
+# Then install Pytorch according to your infrastructure.
 ```
+[Pytorch Install](https://pytorch.org/get-started/locally/) (tested with Ver. 1.7.1).
 
-In the following sections, we assume that you use this conda environment or you manually install the required packages.
+The configuration of these files was tested on Linux Platform with a GPU (RTX1080).
 
-Note that you may need to adapt the `environment.yml`/`requirements.txt` files to your infrastructure. The configuration
-of these files was tested on Linux Platform with a GPU (RTX1080).
+
 
 ## 2. Download of Fish Dataset
 
@@ -33,7 +28,13 @@ bash get_dataset.sh
 
 ## 3. Run
 
-You can use the following command to load the pretrained model and evaluate it on Fish dataset
+Activating the conda environment `TSC_Disc_Proto` if not:
+
+```bash
+conda activate TSC_Disc_Proto
+```
+
+You can then use the following command to load the pretrained model and evaluate it on Fish dataset
 
 ```bash
 python main.py

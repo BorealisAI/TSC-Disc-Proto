@@ -7,6 +7,7 @@
 import argparse
 import time
 import warnings
+warnings.filterwarnings("ignore")
 
 import torch
 import torch.optim as optim
@@ -15,7 +16,6 @@ from base.datasets import build_loader
 from base.networks import proto_clser
 from base.run import train_epoch, val_epoch
 
-warnings.filterwarnings("ignore")
 
 
 def main(args):

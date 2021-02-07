@@ -9,4 +9,5 @@ dependencies:
   - pip
   - pip:
       - tslearn==0.4.1
+      - numpy==1.19.2
       - --requirement requirements.txt

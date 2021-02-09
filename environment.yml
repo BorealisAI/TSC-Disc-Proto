@@ -1,0 +1,12 @@
+name: TSC_Disc_Proto
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - wget=1.20.1
+  - pip
+  - pip:
+      - --find-links https://download.pytorch.org/whl/torch_stable.html
+      - --requirement requirements.txt

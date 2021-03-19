@@ -105,7 +105,7 @@ Dataset\) in the Table.
 
 ## 5. Citations and Links
 
-Our CVPR2021 [Paper](https://arxiv.org/pdf/2103.09458.pdf)
+Our CVPR2021 [Paper](https://arxiv.org/pdf/2103.09458.pdf):
 ```text
 @inproceedings{chang2021dpdtw,
 title={Learning Discriminative Prototypes with Dynamic Time Warping},

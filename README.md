@@ -105,6 +105,16 @@ Dataset\) in the Table.
 
 ## 5. Citations and Links
 
+Our CVPR2021 [Paper](https://arxiv.org/pdf/2103.09458.pdf)
+```text
+@inproceedings{chang2021dpdtw,
+title={Learning Discriminative Prototypes with Dynamic Time Warping},
+author={Xiaobin Chang, Frederick Tung, Greg Mori},
+booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2021}
+}
+```
+
 UCR Datasets [Paper](https://link.springer.com/article/10.1007/s10618-016-0483-9):
 
 ```text

@@ -1,7 +1,7 @@
 # TSC-Disc-Proto
 
 This repo contains the official code of the project "Discriminative Prototypes learned by Dynamic Time Warping (DTW) for
-Time Series Classification (TSC)". This work is accepted by 'CVPR2021' as "Learning Discriminative Prototypes with Dynamic Time Warping". [preprint](https://arxiv.org/pdf/2103.09458.pdf)
+Time Series Classification (TSC)". This work is accepted by CVPR2021 as "Learning Discriminative Prototypes with Dynamic Time Warping". [preprint](https://arxiv.org/pdf/2103.09458.pdf)
 
 ## 1. Dependent Packages and Platform
 
